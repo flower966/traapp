@@ -1,0 +1,120 @@
+@import url("base.css");
+body{
+	height: 20rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 570856 */
+  src: url('http://at.alicdn.com/t/font_570856_y7tchcmsxzzx5hfr.eot');
+  src: url('http://at.alicdn.com/t/font_570856_y7tchcmsxzzx5hfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_570856_y7tchcmsxzzx5hfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_570856_y7tchcmsxzzx5hfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_570856_y7tchcmsxzzx5hfr.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+}
+.top p{
+	font-size: 0.5rem;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.pic{
+	width: 100%;
+	height: 15rem;
+	position: relative;
+}
+.pic img{
+	width: 100%;
+}
+.box{
+	width: 9.6rem;
+	height: 5.6rem;
+	background: rgba(254, 251, 251, 0.8);
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+.icon5{
+	font-size:1rem;
+	color: #ff6766; 
+	line-height: 3rem;
+	margin-left: 4.2rem;
+}
+.box p{
+	font-size: 0.5rem;
+	color: #000;
+	text-align: center;
+	margin-top: -0.7rem;
+}
+.little{
+	width: 8.4rem;
+	height: 1.3rem;
+	background: #ff6766;
+	margin-left: 0.6rem;
+	margin-top: 1.2rem;
+}
+.little p{
+	font-size: 0.5rem;
+	color: #000;
+	line-height: 1.3rem;
+}
+.tab{
+	width: 100%;
+	height: 1.45rem;
+	background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #f2f2f2;
+}
+.tab_box{
+	width: calc(100% / 4);
+	height: 100%;
+	background: #fff;
+	float: left;
+}
+.boxx{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.boxx1{
+	display: block;
+	width: 1rem;
+	height: 1.2rem;
+	margin: 0.1rem auto 0;
+}
+.icon3{
+	font-size: 0.6rem;
+	color: #303030;
+	margin-left: 0.2rem;
+}
+.boxx1 p{
+	font-size: 0.35rem;
+	color: #303030;
+	text-align: center;
+}
+.icon2{
+	font-size: 0.6rem;
+	color: #fa6271;
+	margin-left: 0.2rem;
+}
+.boxx p{
+	font-size: 0.35rem;
+	color: #fa6271;
+	text-align: center;
+}

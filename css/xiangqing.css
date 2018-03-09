@@ -1,0 +1,271 @@
+@import url("base.css");
+body{
+	height: 50rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 571061 */
+  src: url('http://at.alicdn.com/t/font_571061_4r29k29r2arcz0k9.eot');
+  src: url('http://at.alicdn.com/t/font_571061_4r29k29r2arcz0k9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_571061_4r29k29r2arcz0k9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_571061_4r29k29r2arcz0k9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_571061_4r29k29r2arcz0k9.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+.tu{
+	width: 100%;
+	height: 7.2rem;
+	position: relative;
+}
+.tu img{
+	width: 100%;
+}
+.top_left{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 0.6rem;
+	left: 0.6rem;
+}
+.icon1{
+	font-size: 1rem;
+	color: #fffdfe; 
+}
+.price{
+	width: 2rem;
+	height: 1.3rem;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 5.9rem;
+	left: 0.5rem;
+}
+.price p{
+	font-size: 0.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.3rem;
+}
+.ye{
+	width: 2rem;
+	height: 1.3rem;
+	position: absolute;
+	top: 5.9rem;
+	left: 8.5rem;
+}
+.ye{
+	font-size: 0.5rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.3rem;
+}
+.zi{
+	width: 100%;
+	height: 2rem;
+}
+.zi p{
+	font-size: 0.5rem;
+	color: #000;
+	margin-left: 0.5rem;
+	line-height: 2rem;
+}
+.ren{
+	width: 100%;
+	height: 1.8rem;
+	overflow: hidden;
+}
+.ren_left{
+	width: 1.5rem;
+	height: 1.5rem;
+	background: pink;
+	border-radius: 50%;
+	margin-left: 0.5rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+.name{
+	width: 7rem;
+	height: 1.8rem;
+	margin-top: 0.3rem;
+	margin-left: 2.5rem;
+}
+.name h5{
+	font-size: 0.4rem;
+	color: #000;	
+}
+.name p{
+	font-size: 0.4rem;
+	color: #000;
+	margin-top: 0.2rem;
+}
+.qita{
+	width: 100%;
+	height: 5rem;
+	background: #fff;
+	border-top: 1px solid #d5d5d5;
+	margin-top: 0.5rem;
+}
+.qita_top{
+	width: 100%;
+	height: 1.7rem;
+	overflow: hidden;
+}
+.qita_top h5{
+	font-size: 0.5rem;
+	color: #343434;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.fuwu{
+	width: 100%;
+	height: 3.3rem;
+	overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+}
+.fuwu_tu{
+	width: 1.3rem;
+	height: 1.3rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	float: left;
+}
+.fuwu_tu img{
+	width: 100%;
+}
+.fuwu_mid{
+	width: 5rem;
+	height: 1.3rem;
+	margin-left: 2rem;
+}
+.fuwu_mid p{
+	font-size: 0.45rem;
+	color: #323232;
+	margin-top: 0.8rem;
+}
+.fuwu_more{
+	width: 3rem;
+	height: 1.3rem;
+	background: #fff;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: -1.6rem;
+}
+.fuwu_more p{
+	font-size: 0.45rem;
+    color: #ec4a45;
+    text-align: center;
+    line-height: 1.3rem;
+}
+.fangyuan{
+	width: 100%;
+	height: 1rem;
+}
+.fangyuan h5{
+	font-size: 0.5rem;
+	color: #343434;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.miaoshu{
+	width: 100%;
+	height: 4rem;
+	background: #fff;
+	border-bottom: 1px solid #d5d5d5;
+}
+.miaoshu p{
+	font-size: 0.45rem;
+	color: #303030;
+	margin-left: 0.5rem;
+	margin-right: 0.4rem;
+	line-height: 0.9rem;
+}
+.daban{
+	width: 100%;
+	height: 1.5rem;
+}
+.daban p{
+	font-size: 0.45rem;
+	color: #343434;
+	margin-left: 0.5rem;
+}
+.map{
+	width: 100%;
+	height: 5.98rem;
+}
+.map img{
+	width: 100%;
+}
+.xinxi{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+}
+.xinxi_left{
+	width: 7rem;
+	height: 100%;
+	float: left;
+}
+.xinxi_left p{
+	font-size: 0.49rem;
+	color: #313131;
+	line-height: 1.2rem;
+	margin-left: 0.5rem;
+}
+.xinxi_right{
+	width: 3rem;
+	height: 100%;
+	float: right;
+}
+.xinxi_right p{
+	font-size: 0.49rem;
+	color: #313131;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.zhengce{
+	width: 100%;
+	height: 2.8rem;
+}
+.zhengce p{
+	font-size: 0.45rem;
+	color: #303030;
+	margin-left: 0.5rem;
+}
+/* 底部 */
+.tab{
+	width: 100%;
+	height: 1.45rem;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #999999;
+}
+.tab_left{
+	width: 50%;
+	height: 100%;
+	background: #3db3bf;
+	float: left;
+}
+.tab_left p{
+	font-size: 0.5rem;
+	color: #fff; 
+	text-align: center;
+	line-height: 1.45rem;
+}
+.tab_right{
+    width: 50%;
+	height: 100%;
+	background: #ff6766;
+	float: right;
+}
+.tab_right p{
+	font-size: 0.5rem;
+	color: #fff; 
+	text-align: center;
+	line-height: 1.45rem;
+}
